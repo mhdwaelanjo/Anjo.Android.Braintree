@@ -1,7 +1,7 @@
 # Anjo.Android.Braintree
 
 ---------------------------------
-Braintree Android SDK for Xamarin Android Binding Library - Wael Anjo
+Braintree Android SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
 
 Welcome to Braintree's Android SDK. This library will help you accept card and alternative payments in your Android app.
