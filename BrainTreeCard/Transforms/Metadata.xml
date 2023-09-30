@@ -1,12 +1,20 @@
 ﻿<metadata>
-  <!--
+	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
- 
-  <attr path="/api/package[@name='com.braintreepayments.api']/class[@name='Card']" name="managedName">CardPaymentMethod</attr>
+
+	<attr path="/api/package[@name='com.braintreepayments.api']/class[@name='Card']" name="managedName">CardPaymentMethod</attr>
+
+	<remove-node path="/api/package[@name='com.braintreepayments.api']/class[@name='Card']/method[@name='writeToParcel' and count(parameter)=2 and parameter[1][@type='android.os.Parcel'] and parameter[2][@type='int']]" />
+	<add-node path="/api/package[@name='com.braintreepayments.api']/class[@name='Card']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="WriteToParcel" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="dest" type="Android.OS.Parcel" />
+			<parameter name="flags" type="Android.OS.ParcelableWriteFlags" />
+		</method>
+	</add-node>
 
 </metadata>

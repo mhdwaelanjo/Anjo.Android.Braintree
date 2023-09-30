@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.BrowserSwitch</PackageId>
-		<PackageVersion>2.3.2.2</PackageVersion>
-		<AssemblyVersion>2.3.2.2</AssemblyVersion>
-		<FileVersion>2.3.2.2</FileVersion>
-		<Version>2.3.2.2</Version>
+		<PackageVersion>2.3.2.3</PackageVersion>
+		<AssemblyVersion>2.3.2.3</AssemblyVersion>
+		<FileVersion>2.3.2.3</FileVersion>
+		<Version>2.3.2.3</Version>
 		<Title>Anjo Android BrainTree BrowserSwitch SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -26,11 +26,16 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="Jars\browser-switch-2.3.2.aar" />
 	</ItemGroup>
 	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 		<None Include="..\LICENSE.txt">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
@@ -41,10 +46,10 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.6.0" />
-		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1" />
-		<PackageReference Include="Xamarin.AndroidX.Browser" Version="1.5.0" />
-		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.5.6" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.8.10" />
+		<PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.6.0.1" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.1" />
+		<PackageReference Include="Xamarin.AndroidX.Browser" Version="1.5.0.1" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.5.7" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.8.21" />
 	</ItemGroup>
 </Project>
