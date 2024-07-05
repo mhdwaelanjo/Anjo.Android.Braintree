@@ -7,19 +7,19 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.DropIn</PackageId>
-		<PackageVersion>6.15.0</PackageVersion>
-		<AssemblyVersion>6.15.0</AssemblyVersion>
-		<FileVersion>6.15.0</FileVersion>
-		<Version>6.15.0</Version>
+		<PackageVersion>6.16.0</PackageVersion>
+		<AssemblyVersion>6.16.0</AssemblyVersion>
+		<FileVersion>6.16.0</FileVersion>
+		<Version>6.16.0</Version>
 		<Title>Anjo Android BrainTree DropIn SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.BrainTree</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - BrainTree DropIn SDK</Description>
-		<PackageReleaseNotes>BrainTree.DropIn SDK v6.15.0</PackageReleaseNotes>
+		<PackageReleaseNotes>BrainTree.DropIn SDK v6.16.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
 		<Summary>Build with Braintree Resources and tools for developers to integrate Braintree's global payments platform.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\drop-in-6.15.0.aar" />
+	  <None Remove="Jars\drop-in-6.16.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -40,7 +40,7 @@
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-		<None Include="..\README.md">
+		<None Include="README.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>

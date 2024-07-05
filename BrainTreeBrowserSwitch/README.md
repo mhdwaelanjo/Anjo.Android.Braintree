@@ -1,8 +1,9 @@
-﻿# Anjo.Android.Braintree
+﻿# Anjo.Android.BrainTree.BrowserSwitch
 
 ---------------------------------
 Braintree Android SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
+[![NuGet](https://buildstats.info/nuget/Anjo.Android.BrainTree.BrowserSwitch)](https://www.nuget.org/packages/Anjo.Android.BrainTree.BrowserSwitch/)
 
 Welcome to Braintree's Android SDK. This library will help you accept card and alternative payments in your Android app.
 Full documentation : https://developer.paypal.com/braintree/docs/guides/overview

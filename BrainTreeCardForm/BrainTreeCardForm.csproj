@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.CardForm</PackageId>
-		<PackageVersion>5.4.0.6</PackageVersion>
-		<AssemblyVersion>5.4.0.6</AssemblyVersion>
-		<FileVersion>5.4.0.6</FileVersion>
-		<Version>5.4.0.6</Version>
+		<PackageVersion>5.4.0.7</PackageVersion>
+		<AssemblyVersion>5.4.0.7</AssemblyVersion>
+		<FileVersion>5.4.0.7</FileVersion>
+		<Version>5.4.0.7</Version>
 		<Title>Anjo Android BrainTree CardForm SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -19,7 +19,7 @@
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - BrainTree CardForm SDK</Description>
 		<PackageReleaseNotes>BrainTree.CardForm SDK v5.4.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
 		<Summary>Build with Braintree Resources and tools for developers to integrate Braintree's global payments platform.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -40,7 +40,7 @@
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-		<None Include="..\README.md">
+		<None Include="README.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
