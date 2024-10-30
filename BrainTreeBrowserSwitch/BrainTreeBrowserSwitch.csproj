@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.BrowserSwitch</PackageId>
-		<PackageVersion>2.7.0</PackageVersion>
-		<AssemblyVersion>2.7.0</AssemblyVersion>
-		<FileVersion>2.7.0</FileVersion>
-		<Version>2.7.0</Version>
+		<PackageVersion>2.7.0.1</PackageVersion>
+		<AssemblyVersion>2.7.0.1</AssemblyVersion>
+		<FileVersion>2.7.0.1</FileVersion>
+		<Version>2.7.0.1</Version>
 		<Title>Anjo Android BrainTree BrowserSwitch SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\browser-switch-2.7.0.aar" />
+		<None Remove="Jars\browser-switch-2.7.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

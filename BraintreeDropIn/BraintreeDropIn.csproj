@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.DropIn</PackageId>
-		<PackageVersion>6.16.0</PackageVersion>
-		<AssemblyVersion>6.16.0</AssemblyVersion>
-		<FileVersion>6.16.0</FileVersion>
-		<Version>6.16.0</Version>
+		<PackageVersion>6.16.0.1</PackageVersion>
+		<AssemblyVersion>6.16.0.1</AssemblyVersion>
+		<FileVersion>6.16.0.1</FileVersion>
+		<Version>6.16.0.1</Version>
 		<Title>Anjo Android BrainTree DropIn SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\drop-in-6.16.0.aar" />
+		<None Remove="Jars\drop-in-6.16.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.UnionPay</PackageId>
-		<PackageVersion>4.48.0</PackageVersion>
-		<AssemblyVersion>4.48.0</AssemblyVersion>
-		<FileVersion>4.48.0</FileVersion>
-		<Version>4.48.0</Version>
+		<PackageVersion>4.49.1</PackageVersion>
+		<AssemblyVersion>4.49.1</AssemblyVersion>
+		<FileVersion>4.49.1</FileVersion>
+		<Version>4.49.1</Version>
 		<Title>Anjo Android BrainTree UnionPay SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.BrainTree</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - BrainTree UnionPay SDK</Description>
-		<PackageReleaseNotes>BrainTree.UnionPay SDK v4.48.0</PackageReleaseNotes>
+		<PackageReleaseNotes>BrainTree.UnionPay SDK v4.49.1</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
 		<Summary>Build with Braintree Resources and tools for developers to integrate Braintree's global payments platform.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\union-pay-4.48.0.aar" />
+		<None Remove="Jars\union-pay-4.49.1.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

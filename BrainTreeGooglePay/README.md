@@ -3,7 +3,7 @@
 ---------------------------------
 Braintree Android SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
-[![NuGet](https://buildstats.info/nuget/Anjo.Android.BrainTree.GooglePayment)](https://www.nuget.org/packages/Anjo.Android.BrainTree.GooglePayment/)
+[![NuGet Version](https://img.shields.io/nuget/v/Anjo.Android.BrainTree.GooglePayment)](https://www.nuget.org/packages/Anjo.Android.BrainTree.GooglePayment) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.Braintree)](https://github.com/mhdwaelanjo/Anjo.Android.Braintree/blob/master/LICENSE.txt)
 
 Welcome to Braintree's Android SDK. This library will help you accept card and alternative payments in your Android app.
 Full documentation : https://developer.paypal.com/braintree/docs/guides/overview
