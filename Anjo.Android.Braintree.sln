@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BraintreeDropIn", "BraintreeDropIn\BraintreeDropIn.csproj", "{29CB916F-05F5-4CC2-9C9E-4BDA7DA78C50}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeBrowserSwitch", "BrainTreeBrowserSwitch\BrainTreeBrowserSwitch.csproj", "{C94C2852-4E40-4D5B-9790-79B64AE1C623}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeCard", "BrainTreeCard\BrainTreeCard.csproj", "{5F6C80BD-DCBA-4798-9376-53800151D374}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeCardForm", "BrainTreeCardForm\BrainTreeCardForm.csproj", "{AFF34050-821C-4CF3-B2BA-D9FCF4934101}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeCore", "BrainTreeCore\BrainTreeCore.csproj", "{B51D67B1-2428-4543-8508-38ADC7A6855B}"
 EndProject
@@ -21,13 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreePayPal", "BrainTre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeThreeDSecure", "BrainTreeThreeDSecure\BrainTreeThreeDSecure.csproj", "{5554D020-0344-46D5-BD44-E0DA360DD19D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeUnionPay", "BrainTreeUnionPay\BrainTreeUnionPay.csproj", "{C737E990-C0DD-4961-9A7D-C3A54211BDE1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainTreeVenmo", "BrainTreeVenmo\BrainTreeVenmo.csproj", "{8087DF7F-B27A-414B-A2FF-0E5E0AF49F60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayPalDataCollector", "PayPalDataCollector\PayPalDataCollector.csproj", "{802FE3EE-2D15-495D-9EAE-9B7315E29C09}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedUtilities", "SharedUtilities\SharedUtilities.csproj", "{82C7D892-3C53-4C51-82A6-298AEC6C48ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraintreeDropIn", "BraintreeDropIn\BraintreeDropIn.csproj", "{359933FB-F45E-3650-E5BC-071664165419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{29CB916F-05F5-4CC2-9C9E-4BDA7DA78C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29CB916F-05F5-4CC2-9C9E-4BDA7DA78C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29CB916F-05F5-4CC2-9C9E-4BDA7DA78C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29CB916F-05F5-4CC2-9C9E-4BDA7DA78C50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C94C2852-4E40-4D5B-9790-79B64AE1C623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C94C2852-4E40-4D5B-9790-79B64AE1C623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C94C2852-4E40-4D5B-9790-79B64AE1C623}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,10 +37,6 @@ Global
 		{5F6C80BD-DCBA-4798-9376-53800151D374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6C80BD-DCBA-4798-9376-53800151D374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6C80BD-DCBA-4798-9376-53800151D374}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFF34050-821C-4CF3-B2BA-D9FCF4934101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFF34050-821C-4CF3-B2BA-D9FCF4934101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFF34050-821C-4CF3-B2BA-D9FCF4934101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFF34050-821C-4CF3-B2BA-D9FCF4934101}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B51D67B1-2428-4543-8508-38ADC7A6855B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B51D67B1-2428-4543-8508-38ADC7A6855B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51D67B1-2428-4543-8508-38ADC7A6855B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,22 +57,18 @@ Global
 		{5554D020-0344-46D5-BD44-E0DA360DD19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5554D020-0344-46D5-BD44-E0DA360DD19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5554D020-0344-46D5-BD44-E0DA360DD19D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C737E990-C0DD-4961-9A7D-C3A54211BDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C737E990-C0DD-4961-9A7D-C3A54211BDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C737E990-C0DD-4961-9A7D-C3A54211BDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C737E990-C0DD-4961-9A7D-C3A54211BDE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8087DF7F-B27A-414B-A2FF-0E5E0AF49F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8087DF7F-B27A-414B-A2FF-0E5E0AF49F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8087DF7F-B27A-414B-A2FF-0E5E0AF49F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8087DF7F-B27A-414B-A2FF-0E5E0AF49F60}.Release|Any CPU.Build.0 = Release|Any CPU
-		{802FE3EE-2D15-495D-9EAE-9B7315E29C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{802FE3EE-2D15-495D-9EAE-9B7315E29C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{802FE3EE-2D15-495D-9EAE-9B7315E29C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{802FE3EE-2D15-495D-9EAE-9B7315E29C09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82C7D892-3C53-4C51-82A6-298AEC6C48ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82C7D892-3C53-4C51-82A6-298AEC6C48ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82C7D892-3C53-4C51-82A6-298AEC6C48ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82C7D892-3C53-4C51-82A6-298AEC6C48ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359933FB-F45E-3650-E5BC-071664165419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359933FB-F45E-3650-E5BC-071664165419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359933FB-F45E-3650-E5BC-071664165419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359933FB-F45E-3650-E5BC-071664165419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

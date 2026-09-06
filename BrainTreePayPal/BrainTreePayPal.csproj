@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
-		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<TargetFrameworks>net9.0-android;net8.0-android;</TargetFrameworks>
+		<SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.BrainTree.PayPal</PackageId>
-		<PackageVersion>4.49.1</PackageVersion>
-		<AssemblyVersion>4.49.1</AssemblyVersion>
-		<FileVersion>4.49.1</FileVersion>
-		<Version>4.49.1</Version>
+		<PackageVersion>5.8.0</PackageVersion>
+		<AssemblyVersion>5.8.0</AssemblyVersion>
+		<FileVersion>5.8.0</FileVersion>
+		<Version>5.8.0</Version>
 		<Title>Anjo Android BrainTree PayPal SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.BrainTree</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - BrainTree PayPal SDK</Description>
-		<PackageReleaseNotes>BrainTree.PayPal SDK v4.49.1</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
+		<PackageReleaseNotes>BrainTree.PayPal SDK v5.8.0</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
 		<Summary>Build with Braintree Resources and tools for developers to integrate Braintree's global payments platform.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Remove="Jars\paypal-4.49.1.aar" />
+		<None Remove="Jars\paypal-5.8.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,12 +46,12 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.6" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.22" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.5" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.21.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\BrainTreeBrowserSwitch\BrainTreeBrowserSwitch.csproj" />
 		<ProjectReference Include="..\BrainTreeCore\BrainTreeCore.csproj" />
-		<ProjectReference Include="..\PayPalDataCollector\PayPalDataCollector.csproj" />
+		<ProjectReference Include="..\BrainTreeDataCollector\BrainTreeDataCollector.csproj" />
 	</ItemGroup>
 </Project>

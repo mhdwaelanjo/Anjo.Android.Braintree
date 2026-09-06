@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
+		<TargetFrameworks>net9.0-android;net8.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -18,7 +18,7 @@
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - BrainTree CardForm SDK</Description>
 		<PackageReleaseNotes>BrainTree.CardForm SDK v5.4.0</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
+		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Braintree, PayPal, UnionPay, Venmo, GooglePay, Payment Gateway, global payments</PackageTags>
 		<Summary>Build with Braintree Resources and tools for developers to integrate Braintree's global payments platform.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
